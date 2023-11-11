@@ -1,0 +1,125 @@
+@import url(/clients/main-style.css);
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.container{
+    background-color: var(--primary-color);
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-sign-up{
+    font-size: 1rem;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+    height: 550px;
+    width: 550px;
+}
+
+.container-sign-up h1{
+    font-weight: 400;
+}
+
+.container-sign-up label{
+    margin-top: 15px;
+}
+
+.nome-sobrenome{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.nome{
+    display: flex;
+    flex-direction: column;
+}
+
+.nome input{
+    width: 190px;
+}
+
+.sobrenome{
+    display: flex;
+    flex-direction: column;
+}
+
+.sobrenome input{
+    width: 190px;
+}
+
+input{
+    background-color: var(--secondary-color);
+    height: 40px;
+    /* solid: a borda fica como uma linha contínua e uniforme */
+    border: 1px solid var(--tertiary-color);
+    border-radius: 4px;
+    text-indent: 10px;
+}
+
+input::placeholder{
+    color: var(--place-holder-color);
+    text-indent: 10px;
+}
+
+input:focus {
+    border: 3px solid var(--primary-color);
+    outline: none;
+    border-radius: 4px;
+    text-indent: 10px;
+  }
+  
+.email{
+    display: flex;
+    flex-direction: column;
+}
+
+.email input{
+    width: 400px;
+}
+
+.senha{
+    display: flex;
+    flex-direction: column;
+}
+
+.senha input{
+    width: 400px;
+}
+
+.confirmar-senha input{
+    width: 400px;
+    margin-top: 30px;
+}
+
+.container-sign-up button{
+    background-color: var(--primary-color);
+    color: #ffff;
+    font-weight: 700;
+    height: 45px;
+    width: 250px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 40px;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+}
+
+.botao > button:hover{
+    background-color: #2460b4;
+    transition: .5s;
+}

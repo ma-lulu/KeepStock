@@ -1,0 +1,11 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+/* Variaveis */
+:root{
+    --primary-color: #3F8EFC;
+    --secondary-color: #ECECEC;
+    --tertiary-color: #D4D4D4;
+    --place-holder-color: #9F9F9F;
+    --hover-color: #2460b4;
+}
